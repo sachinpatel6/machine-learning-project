@@ -26,18 +26,18 @@ After checking missing values, only one row had a missing value, which was remov
 The final dataset used for training contains 2919 rows.
 
 ## Exploratory Data Analysis (EDA)
-Used info(), describe(), and head() to understand data structure
-Checked missing values using isna().sum()
-Created a correlation heatmap to study relationships between features
+- Used info(), describe(), and head() to understand data structure
+- Checked missing values using isna().sum()
+- Created a correlation heatmap to study relationships between features
 
 ## Observed that:
-Distance to Solar Noon has a strong impact on power generation
-Sky Cover and Humidity negatively affect solar power
-Daylight-related features influence output significantly
+- Distance to Solar Noon has a strong impact on power generation
+- Sky Cover and Humidity negatively affect solar power
+- Daylight-related features influence output significantly
 
 ## Data Preprocessing
-Converted Is Daylight column into numerical form
-Removed missing values using dropna()
+- Converted Is Daylight column into numerical form
+- Removed missing values using dropna()
 
 ## Split the dataset into:
 80% training data
@@ -58,13 +58,13 @@ The models were evaluated using:
 
 
 ## Performance Summary:
-Linear Regression gave average performance
-Decision Tree improved accuracy but showed some overfitting
-Random Forest performed much better with higher R²
-Gradient Boosting Regressor performed the best
+- Linear Regression gave average performance
+- Decision Tree improved accuracy but showed some overfitting
+- Random Forest performed much better with higher R²
+- Gradient Boosting Regressor performed the best
 
-Best Model: Gradient Boosting Regressor
-R² Score:**~ 0.92**
+- Best Model: Gradient Boosting Regressor
+- R² Score:**~ 0.92**
 
 This shows that ensemble models are more effective for predicting solar power output.
 
@@ -85,11 +85,10 @@ This clearly shows that sun position and cloud conditions play the most importan
 - Scikit-learn
 
 ## Key Learnings
-Solar power generation depends heavily on sun position and weather conditions
-Cloud cover and humidity reduce power output
-Ensemble models like Random Forest and Gradient Boosting give better accuracy than simple models
-
-Feature importance helps understand real-world energy behavior, not just prediction accuracy
+- Solar power generation depends heavily on sun position and weather conditions
+- Cloud cover and humidity reduce power output
+- Ensemble models like Random Forest and Gradient Boosting give better accuracy than simple models
+- Feature importance helps understand real-world energy behavior, not just prediction accuracy
 
 
 
