@@ -64,7 +64,7 @@ The models were evaluated using:
 - Gradient Boosting Regressor performed the best
 
 - Best Model: Gradient Boosting Regressor
-- R² Score:**~ 0.92**
+- R² Score:**0.92**
 
 This shows that ensemble models are more effective for predicting solar power output.
 
