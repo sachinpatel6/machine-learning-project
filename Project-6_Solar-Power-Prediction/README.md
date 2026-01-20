@@ -89,8 +89,3 @@ This clearly shows that sun position and cloud conditions play the most importan
 - Cloud cover and humidity reduce power output
 - Ensemble models like Random Forest and Gradient Boosting give better accuracy than simple models
 - Feature importance helps understand real-world energy behavior, not just prediction accuracy
-
-
-
-
-Or help you defend model choice if a professor asks “why this model?”
