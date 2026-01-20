@@ -59,7 +59,7 @@ Models were evaluated using:
 - Random Forest Regressor performed the best
 - Gradient Boosting also performed well but slightly lower than Random Forest
 - Best Model: Random Forest Regressor
-- R² Score: **~ 0.94**
+- R² Score: **~0.94**
 This indicates that ensemble models handle salary prediction better than simple models.
 
 ## Feature Importance
