@@ -7,12 +7,12 @@ The main objective was to build machine learning models that can predict salary 
 ## Dataset
 The dataset contains 375 records, and after removing missing values, 373 records were used for modeling.
 Columns in the dataset:
--Age
--Gender
--Education Level
--Job Title
--Years of Experience
--Salary (Target Variable)
+- Age
+- Gender
+- Education Level
+- Job Title
+- Years of Experience
+- Salary (Target Variable)
 
 The dataset is small but well-structured and suitable for regression-based prediction.
 
@@ -43,10 +43,10 @@ Job Title
 
 ## Machine Learning Models Used
 The following regression models were trained and compared:
--Linear Regression
--Decision Tree Regressor
--Random Forest Regressor
--Gradient Boosting Regressor
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+- Gradient Boosting Regressor
 
 ## Model Performance
 Models were evaluated using:
